@@ -18,7 +18,7 @@ int turns;
 int main() 
 {
   //drawboard
-  db(board);
+  print_board(board);
 
 
   while (turns < 6) 
@@ -27,7 +27,7 @@ int main()
     p1turn(p1, p2, board);
 
     //draw board
-    db(board);
+    print_board(board);
 
     //add to turns
     turns++;
@@ -50,7 +50,7 @@ int main()
       }
 
       //draw board
-      db(board);
+      print_board(board);
     } 
     else 
     {
