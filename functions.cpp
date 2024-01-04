@@ -48,6 +48,7 @@ char players(const board[3][3])
               equal = false;
               break;
           }
+          
       }
   }
   if (equal)
