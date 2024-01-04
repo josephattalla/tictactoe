@@ -13,6 +13,7 @@ void print_board(char board[])
   // loop through rows
   for (int i = 0; i < 3; i++)
   {
+    cout << 
     // loop through columns
     for (int j = 0; j < 3; j++)
     {
