@@ -17,5 +17,3 @@ char player(const array<array<char, BOARD_SIZE>, BOARD_SIZE>& board);
 bool isValidMove(const array<array<char, BOARD_SIZE>, BOARD_SIZE>& board, const pair<int, int>& action);
 set<pair<int, int>> actions(const array<array<char, BOARD_SIZE>, BOARD_SIZE>& board);
 array<array<char, BOARD_SIZE>, BOARD_SIZE> result(const array<array<char, BOARD_SIZE>, BOARD_SIZE>& board, const pair<int, int>& action);
-
-#endif // HEADER_HPP
