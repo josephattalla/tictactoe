@@ -39,9 +39,10 @@ char players(const board[3][3])
   X_count = 0;
   O_count = 0;
 
-  
+  // loop through rows
   for (int i = 0; i < 3; i++) 
   {
+    
       for (int j = 0; j < 3; j++) 
       {
           if (board[i][j] != BOARD[i][j]) 
