@@ -60,11 +60,13 @@ char players(const board[3][3])
       }
     }
   }
-  
+
+  // if board is empty return X
   if (empty)
   {
     return X;
   }
+  
 
 }
 
