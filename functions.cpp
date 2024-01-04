@@ -42,9 +42,10 @@ char players(const board[3][3])
   // loop through rows
   for (int i = 0; i < 3; i++) 
   {
-    
+    // loop through columns
     for (int j = 0; j < 3; j++) 
     {
+      
         if (board[i][j] != BOARD[i][j]) 
         {
             empty = false;
