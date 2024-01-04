@@ -34,7 +34,7 @@ char players(const board[3][3])
   If game just started, X goes first.
   */
 
-  // if 
+  // if board == BOARD
 }
 
 bool gameover(char board[])
