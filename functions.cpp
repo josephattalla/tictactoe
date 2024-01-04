@@ -45,20 +45,20 @@ char players(const board[3][3])
     // loop through columns
     for (int j = 0; j < 3; j++) 
     {
-      
-        if (board[i][j] != BOARD[i][j]) 
-        {
-            empty = false;
-            break;
-        }
-        if (board[i][j] == X)
-        {
-          X_count++;
-        }
-        else if (board[i][j] == O)
-        {
-          O_count++;
-        }
+
+      if (board[i][j] != BOARD[i][j]) 
+      {
+          empty = false;
+          break;
+      }
+      if (board[i][j] == X)
+      {
+        X_count++;
+      }
+      else if (board[i][j] == O)
+      {
+        O_count++;
+      }
     }
   }
 
