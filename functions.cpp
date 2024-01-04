@@ -46,11 +46,6 @@ char player(const char board[3][3])
     // loop through columns
     for (int j = 0; j < 3; j++) 
     {
-      if (board[i][j] != initial_state[i][j]) 
-      {
-          empty = false;
-          break;
-      }
       if (board[i][j] == X)
       {
         X_count++;
