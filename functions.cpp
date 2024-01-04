@@ -82,7 +82,7 @@ char player(const char board[3][3])
 }
 
 
-set<pair<int, int>> actions(const char board[BOARD_SIZE][BOARD_SIZE])
+set<pair<int, int>> actions(const char board[3][3])
 {
     set<pair<int, int>> possibleActions;
 
