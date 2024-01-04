@@ -1,15 +1,4 @@
-#include <iostream>
-#include <iomanip>
-#include <set>
-#include <stdexcept>
-
-const char X = 'X';
-const char O = 'O';
-const char EMPTY = ' ';
-
-const int BOARD_SIZE = 3;
-
-using namespace std;
+#in
 
 void print_board(const char board[3][3])
 {
