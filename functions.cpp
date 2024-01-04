@@ -6,8 +6,9 @@ using namespace std;
 void print_board(char BOARD[]) 
 {
   /*
-  
+  Prints board
   */
+  
   // loop through rows
   for (int i = 0; i < 3; i++)
   {
