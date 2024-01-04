@@ -17,7 +17,7 @@ void print_board(const char board[][])
     // loop through columns
     for (int j = 0; j < 3; j++)
     {
-      cout << "|" << setw(2) << board[i][j]
+      cout << "|" << setw(2) << board[i][j];
     }
   }
 
