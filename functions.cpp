@@ -36,8 +36,7 @@ char player(const char board[3][3])
   If game just started, X goes first.
   */
 
-  // Variables to determine if board is empty, and to count X's and O's
-  bool empty;
+  // 
   int X_count = 0;
   int O_count = 0;
 
