@@ -14,6 +14,7 @@ void print_board(const char board[3][3])
   for (int i = 0; i < 3; i++)
   {
     cout << "|" << setw(5) << "|" << setw(5) << "|" << endl;
+    cout << "_" << setw(5) << "_" << setw(5) << "_" << endl;
     // loop through columns
     for (int j = 0; j < 3; j++)
     {
