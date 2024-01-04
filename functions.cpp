@@ -85,7 +85,7 @@ char player(const char board[3][3])
 set<pair<int, int>> actions(const char board[3][3])
 {
   /*
-  
+  // Returns possible moves
   */
     set<pair<int, int>> moves;
 
