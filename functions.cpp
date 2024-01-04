@@ -41,8 +41,7 @@ char players(const board[3][3])
       {
           if (board[i][j] != BOARD[i][j]) 
           {
-              // The boards are different
-              // Do something here, like return an indicator or perform some other action
+              
           }
       }
   }
