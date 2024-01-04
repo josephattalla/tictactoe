@@ -5,7 +5,7 @@
 
 const char X = 'X';
 const char O = 'O';
-const char EMPTY = ' '; // Assuming numbers represent empty spots
+const char EMPTY = ' ';
 
 const int BOARD_SIZE = 3;
 
