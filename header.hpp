@@ -12,8 +12,9 @@ const char O = 'O';
 // returns inital state
 char* initial_state();
 
-// print board
+// prints board
 void print_board(const char board[3][3]);
+
 // return whose turn
 char player(const char board[3][3]);
 bool gameover(char board[]);
