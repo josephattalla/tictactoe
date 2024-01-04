@@ -76,6 +76,7 @@ char player(const board[3][3])
   {
     return O;
   }
+  
 }
 
 bool gameover(char board[])
