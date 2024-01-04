@@ -19,7 +19,6 @@ void print_board(const char board[3][3])
     {
       cout << setw(2) << board[i][j] << setw(3) << "|";
     }
-    cout << "_" << setw(5) << "_" << setw(5) << "_" << endl;
   }
 }
 
