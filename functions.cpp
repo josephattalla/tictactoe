@@ -6,7 +6,7 @@ using namespace std;
 
 char* initial_state()
 {
-  char[3][3]
+  char[3][3] board = 
 }
 
 
