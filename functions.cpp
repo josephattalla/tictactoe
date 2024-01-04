@@ -4,7 +4,10 @@
 #include "header.hpp"
 using namespace std;
 
-char* initial_state();
+char* initial_state()
+{
+  return
+}
 
 
 void print_board(const char board[3][3]) 
