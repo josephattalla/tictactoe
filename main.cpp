@@ -4,7 +4,7 @@
 using namespace std;
 
 //Array for the board
-char const board[3][3] = {{"1", "2", "3"},
+char const BOARD[3][3] = {{"1", "2", "3"},
                     {"4", "5", "6"},
                     {"7", "8", "9"}};
 
