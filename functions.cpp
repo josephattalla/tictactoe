@@ -81,3 +81,19 @@ char player(const char board[3][3])
 
 }
 
+
+set<pair<int, int>> actions(const char board[BOARD_SIZE][BOARD_SIZE])
+{
+    set<pair<int, int>> possibleActions;
+
+    for (int i = 0; i < BOARD_SIZE; ++i) {
+        for (int j = 0; j < BOARD_SIZE; ++j) {
+            // Check if the cell is empty (assuming ' ' represents an empty cell)
+            if (board[i][j] == ' ') {
+                possibleActions.insert(make_pair(i, j));
+            }
+        }
+    }
+
+    return possibleActions;
+}
