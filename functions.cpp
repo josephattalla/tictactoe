@@ -29,7 +29,10 @@ void print_board(const char board[3][3])
 
 char players(const board[3][3])
 {
+  /*
+  Returns whose turn it is.
   
+  */
 }
 
 bool gameover(char board[])
