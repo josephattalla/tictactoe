@@ -9,7 +9,7 @@ const char BOARD[3][3] = {{"1", "2", "3"},
                     {"7", "8", "9"}};
 
 //Variable Declaration
-char const X = 
+const char X = 
 int p2;
 int turns;
 
