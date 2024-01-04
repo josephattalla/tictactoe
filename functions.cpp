@@ -87,6 +87,7 @@ set<pair<int, int>> actions(const char board[3][3])
   /*
    Returns all possible moves.
   */
+  
     set<pair<int, int>> moves;
 
     for (int i = 0; i < BOARD_SIZE; ++i) {
