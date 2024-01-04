@@ -49,6 +49,9 @@ char players(const board[3][3])
               break;
           }
           if (board[i][j] == X)
+          {
+            
+          }
       }
   }
   if (equal)
