@@ -10,8 +10,15 @@ void print_board(char board[])
   Prints board
   */
 
-    cout << "|" << setw(5) << "|" << setw(5) << "|" << endl;
-    cout << "|" << setw(2) << board[0][0] << setw(2)  << "|" << 
+  // loop through rows
+  for (int i = 0; i < 3; i++)
+  {
+    // loop through columns
+    for (int j = 0; j < 3; j++)
+    {
+
+    }
+  }
 }
 
 
