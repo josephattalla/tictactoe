@@ -74,7 +74,7 @@ bool isValidMove(const char board[3][3], const pair<int, int> &action)
             board[action.first][action.second] != X && board[action.first][action.second] != O);
 }
 
-set<pair<int, int>> actions(const char board[3][3])
+set<pair<int, int> > actions(const char board[3][3])
 {
     /*
     Returns all possible moves.
