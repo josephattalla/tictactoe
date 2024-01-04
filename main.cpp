@@ -1,9 +1,4 @@
-#include <iostream>
-#include <iomanip>
-#include <set>
-#include <stdexcept>
-#include "header.hpp"
-using namespace std;
+#include 
 
 
 int main()
