@@ -95,7 +95,7 @@ set<pair<int, int>> actions(const char board[3][3])
         for (int j = 0; j < BOARD_SIZE; ++j) 
         {
             // Check if the cell is empty (assuming ' ' represents an empty cell)
-            if (board[i][j] != X and )
+            if (board[i][j] != X and board[i])
             {
                 moves.insert(make_pair(i, j));
             }
