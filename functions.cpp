@@ -6,7 +6,11 @@ using namespace std;
 
 char* initial_state()
 {
-  char[3][3] board = 
+  char[3][3] board = {
+  {'1', '2', '3'}, 
+  {'4', '5', '6'}, 
+  {'7', '8', '9'}
+};
 }
 
 
