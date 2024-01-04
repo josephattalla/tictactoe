@@ -6,6 +6,6 @@ using namespace std;
 
 int main() 
 {
-  print_board(BOARD);
+  print_board(initial_state);
   cout << player(BOARD) << endl;
 }
