@@ -45,7 +45,6 @@ char players(const board[3][3])
     // loop through columns
     for (int j = 0; j < 3; j++) 
     {
-      // if board is not empty, empty == false and break out of loop
       if (board[i][j] != BOARD[i][j]) 
       {
           empty = false;
