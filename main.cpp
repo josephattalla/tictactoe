@@ -7,5 +7,5 @@ using namespace std;
 int main() 
 {
   print_board(initial_state);
-  cout << player(BOARD) << endl;
+  cout << player(initial_state) << endl;
 }
