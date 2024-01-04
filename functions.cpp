@@ -20,6 +20,7 @@ void print_board(char board[])
       cout << "|" << setw(2) << board[i][j]
     }
   }
+
 }
 
 
