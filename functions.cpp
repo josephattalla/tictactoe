@@ -1,6 +1,8 @@
 #include <iostream>
 #include <stdlib.h>
 #include <iomanip>
+#include <vector>
+#include <set>
 #include "header.hpp"
 using namespace std;
 
