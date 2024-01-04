@@ -10,7 +10,7 @@ void print_board(char board[])
   Prints board
   */
 
-  
+  cout << 
 }
 
 
