@@ -6,7 +6,7 @@ using namespace std;
 
 char* initial_state()
 {
-  char
+  char[3][3]
 }
 
 
