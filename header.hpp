@@ -11,6 +11,6 @@ const char O = 'O';
 
 // print board
 void print_board(const char board[3][3]);
-// 
+// return whose turn
 char player(const board[3][3]);
 bool gameover(char board[]);
