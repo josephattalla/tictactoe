@@ -15,5 +15,5 @@ const char O = "O"
 
 int main() 
 {
-  
+  print_board
 }
