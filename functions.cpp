@@ -34,12 +34,11 @@ char players(const board[3][3])
   If game just started, X goes first.
   */
 
-  // if board == BOARD, return X
-  // count how many X and O on board to determine whose turn
+  // Variables to determine if board is 
   bool equal;
   X_count = 0;
   O_count = 0;
-  
+
   for (int i = 0; i < 3; i++) 
   {
       for (int j = 0; j < 3; j++) 
