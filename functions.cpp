@@ -50,8 +50,9 @@ char players(const board[3][3])
           }
           if (board[i][j] == X)
           {
-            
+            X_count++;
           }
+          else if 
       }
   }
   if (equal)
