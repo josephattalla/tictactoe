@@ -13,14 +13,21 @@ void print_board(const char board[3][3])
   // loop through rows
   for (int i = 0; i < 3; i++)
   {
-    cout << "|" << setw(5) << "|" << setw(5) << "|" << endl;
-    cout << "_" << setw(5) << "_" << setw(5) << "_" << endl;
+    // print horizontal line
+    cout << " " << setw(5) << " " << setw(5) << " " << endl;
+
     // loop through columns
     for (int j = 0; j < 3; j++)
     {
-      cout << setw(2) << board[i][j] << setw(3) << "|";
+      cout << "|" << setw(2) << board[i][j] << setw(3);
     }
+
+    // end the row with a vertical line
+    cout << "|" << endl;
   }
+
+  // print the last horizontal line after the last row
+  cout << " " << setw(5) << " " << setw(5) << " " << endl;
 }
 
 
