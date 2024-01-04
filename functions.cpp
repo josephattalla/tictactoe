@@ -5,7 +5,7 @@ using namespace std;
 //draw board
 void print_board(char BOARD[]) 
 {
-  
+  // loop through rows
   for (int i = 0; i < 3; i++)
   {
 
