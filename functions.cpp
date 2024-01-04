@@ -35,7 +35,7 @@ char players(const board[3][3])
   */
 
   // Variables to determine if board is 
-  bool equal;
+  bool empty;
   X_count = 0;
   O_count = 0;
 
@@ -45,7 +45,7 @@ char players(const board[3][3])
       {
           if (board[i][j] != BOARD[i][j]) 
           {
-              equal = false;
+              empty = false;
               break;
           }
           if (board[i][j] == X)
@@ -59,7 +59,7 @@ char players(const board[3][3])
       }
   }
 
-  if (equal)
+  if (empty)
   {
     return X;
   }
