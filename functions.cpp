@@ -56,13 +56,7 @@ char player(const char board[3][3])
       }
     }
   }
-
-  // if board is empty return X
-  if (empty)
-  {
-    return X;
-  }
-
+  
   // if less or equal X, return X, else return O
   return (X_count <= O_count) ? X : O;
 
