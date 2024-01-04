@@ -13,11 +13,11 @@ void print_board(char board[])
   // loop through rows
   for (int i = 0; i < 3; i++)
   {
-    
     // loop through columns
     for (int j = 0; j < 3; j++)
     {
-
+      cout << "|" << setw(5) << "|" << setw(5) << "|";
+      cout << "|" << setw(2) << board[i][j]
     }
   }
 }
