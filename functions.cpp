@@ -4,6 +4,8 @@
 #include "header.hpp"
 using namespace std;
 
+char* initial_state();
+
 
 void print_board(const char board[3][3]) 
 {
