@@ -2,15 +2,17 @@
 #include <stdlib.h>
 using namespace std;
 
-//draw board
+//print board
 void print_board(char BOARD[]) 
 {
   // loop through rows
   for (int i = 0; i < 3; i++)
   {
+    
+    // loop through
     for (int j = 0; j < 3; j++)
     {
-      
+
     }
   }
 }
