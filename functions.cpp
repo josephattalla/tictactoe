@@ -70,7 +70,7 @@ char player(const char board[3][3])
   }
 
   // if more X's, return O; else return O
-  return (X_count > O_count) 
+  return (X_count <= O_count) 
 
 }
 
