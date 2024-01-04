@@ -3,7 +3,8 @@
 using namespace std;
 
 //draw board
-void print_board(char board[]) {
+void print_board(char BOARD[]) 
+{
   cout << board[0] << "|" << board[1] << "|" << board[2] << endl;
   cout << "-----" << endl;
   cout << board[3] << "|" << board[4] << "|" << board[5] << endl;
