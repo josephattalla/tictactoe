@@ -1,28 +1,63 @@
+#include <iostream>
+#include <stdlib.h>
 #include "header.hpp"
+using namespace std;
+
+//Array for the board
+char board[] = {'1', '2', '3', '4', '5', '6', '7', '8', '9'};
+
+//Variable Declaration
+int p1;
+int p2;
+int turns;
 
 
-int main()
+
+int main() 
 {
-    // Example usage:
-    array<array<char, 3>, 3> exampleBoard = {
-        {'1', '2', '3'},
-        {'4', '5', '6'},
-        {'7', '8', '9'}
-    };
+  //drawboard
+  db(board);
 
-    pair<int, int> exampleAction = make_pair(1, 1);
 
-    try
+  while (turns < 6) 
+  {
+    //p1 turn
+    p1turn(p1, p2, board);
+
+    //draw board
+    db(board);
+
+    //add to turns
+    turns++;
+
+    //check if game is over
+    if (gameover(board) == true)
     {
-        array<array<char, 3>, 3> newBoard = result(exampleBoard, exampleAction);
-
-        // Display the new board
-        print_board(newBoard.data());
+      return 0;
     }
-    catch (const runtime_error &e)
+
+    //p2 turn
+    if (turns < 5) 
     {
-        cerr << "Error: " << e.what() << endl;
-    }
+      p2turn(p1, p2, board);
 
-    return 0;
+      //check if game is over
+      if (gameover(board) == true)
+      {
+        return 0;
+      }
+
+      //draw board
+      db(board);
+    } 
+    else 
+    {
+      cout << "TIE!\n";
+      return 0;
+    }
+  }
+
+
+
+
 }
