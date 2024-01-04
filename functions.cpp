@@ -36,8 +36,8 @@ char player(const board[3][3])
 
   // Variables to determine if board is empty, and to count X's and O's
   bool empty;
-  X_count = 0;
-  O_count = 0;
+  int X_count = 0;
+  int O_count = 0;
 
   // loop through rows
   for (int i = 0; i < 3; i++) 
@@ -76,7 +76,7 @@ char player(const board[3][3])
   {
     return O;
   }
-  
+
 }
 
 bool gameover(char board[])
