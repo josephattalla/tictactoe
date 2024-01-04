@@ -20,7 +20,7 @@ void print_board(const char board[3][3])
     }
     if (i < 2)
     {
-      
+      cout << "\n_______________\n";
     }
   }
 }
