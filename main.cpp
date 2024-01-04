@@ -12,7 +12,7 @@ const char BOARD[3][3] = {
 
 // Variables for the players
 const char X = 'X';
-const char O = 'X';
+const char O = O';
 
 
 int main() 
