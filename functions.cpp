@@ -39,7 +39,8 @@ char players(const board[3][3])
     {
         for (int j = 0; j < 3; j++) 
         {
-            if (board[i][j] != BOARD[i][j]) {
+            if (board[i][j] != BOARD[i][j]) 
+            {
                 // The boards are different
                 // Do something here, like return an indicator or perform some other action
             }
