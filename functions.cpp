@@ -39,6 +39,7 @@ char players(const board[3][3])
   bool equal;
   X_count = 0;
   O_count = 0;
+  
   for (int i = 0; i < 3; i++) 
   {
       for (int j = 0; j < 3; j++) 
@@ -58,7 +59,7 @@ char players(const board[3][3])
           }
       }
   }
-  
+
   if (equal)
   {
     return X;
