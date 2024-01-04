@@ -3,12 +3,12 @@
 #include "header.hpp"
 using namespace std;
 
-//Array for the board
+// Array for the board
 const char BOARD[3][3] = {{"1", "2", "3"},
                     {"4", "5", "6"},
                     {"7", "8", "9"}};
 
-//Variable Declaration
+// Variable Declaration
 const char X = "X"
 const char O = "O"
 
