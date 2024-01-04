@@ -27,7 +27,7 @@ void print_board(const char board[3][3])
 }
 
 
-char player(const board[3][3])
+char player(const char board[3][3])
 {
   /*
   Returns whose turn it is.
