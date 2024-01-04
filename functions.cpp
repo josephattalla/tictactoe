@@ -4,7 +4,7 @@
 #include "header.hpp"
 using namespace std;
 
-char* initial_state()
+char initial_state()
 {
   char board[3][3] = {
   {'1', '2', '3'}, 
