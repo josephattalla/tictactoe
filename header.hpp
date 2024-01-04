@@ -9,8 +9,9 @@ const char initial_state[3][3] = {
 const char X = 'X';
 const char O = 'O';
 
-// returnsinital state
+// returns inital state
 char* initial_state();
+
 // print board
 void print_board(const char board[3][3]);
 // return whose turn
