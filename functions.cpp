@@ -10,8 +10,8 @@ void print_board(char board[])
   Prints board
   */
 
-      cout << "|" << setw(5) << "|" << setw(5) << "|";
-      cout << "|" << setw(2) << board[i][j]  
+    cout << "|" << setw(5) << "|" << setw(5) << "|";
+    cout << "|" << setw(2) << board[i][j]  
 }
 
 
