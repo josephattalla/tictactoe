@@ -4,7 +4,7 @@
 using namespace std;
 
 
-void print_board(char BOARD[]) 
+void print_board(char board[]) 
 {
   /*
   Prints board
@@ -17,7 +17,7 @@ void print_board(char BOARD[])
     for (int j = 0; j < 3; j++)
     {
       cout << "|" << setw(5) << "|" << setw(5) << "|";
-      cout << "|" << setw(2) << 
+      cout << "|" << setw(2) << board[]
     }
   }
 }
