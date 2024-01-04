@@ -27,7 +27,7 @@ void print_board(const char board[3][3])
 }
 
 
-char player
+char players()
 
 bool gameover(char board[])
 {
