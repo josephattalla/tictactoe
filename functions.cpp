@@ -74,7 +74,7 @@ char players(const board[3][3])
   }
   else
   {
-    re
+    return O;
   }
 
 }
