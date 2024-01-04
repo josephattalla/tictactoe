@@ -9,6 +9,8 @@ const char BOARD[3][3] = {
 const char X = 'X';
 const char O = 'O';
 
+// inital state
+
 // print board
 void print_board(const char board[3][3]);
 // return whose turn
