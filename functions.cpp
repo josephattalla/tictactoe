@@ -51,7 +51,8 @@ char players(const board[3][3])
     return X;
   }
 
-  // count how many X and O on board to det
+  // count how many X and O on board to determine whose turn
+  
 }
 
 bool gameover(char board[])
