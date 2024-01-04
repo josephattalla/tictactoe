@@ -1,22 +1,24 @@
-// Initial state of board
-const char initial_state[3][3] = {
-  {'1', '2', '3'}, 
-  {'4', '5', '6'}, 
-  {'7', '8', '9'}
-};
+#ifndef HEADER_HPP
+#define HEADER_HPP
 
-// Variables for the players
+#include <iostream>
+#include <iomanip>
+#include <set>
+#include <stdexcept>
+#include <array>
+
 const char X = 'X';
 const char O = 'O';
+const char EMPTY = ' '; // Assuming numbers represent empty spots
 
-// returns inital state
-char* initial_state();
+const int BOARD_SIZE = 3;
 
-// prints board
-void print_board(const char board[3][3]);
+using namespace std;
 
-// returns whose turn
-char player(const char board[3][3]);
+void print_board(const array<array<char, BOARD_SIZE>, BOARD_SIZE>& board);
+char player(const array<array<char, BOARD_SIZE>, BOARD_SIZE>& board);
+bool isValidMove(const array<array<char, BOARD_SIZE>, BOARD_SIZE>& board, const pair<int, int>& action);
+set<pair<int, int>> actions(const array<array<char, BOARD_SIZE>, BOARD_SIZE>& board);
+array<array<char, BOARD_SIZE>, BOARD_SIZE> result(const array<array<char, BOARD_SIZE>, BOARD_SIZE>& board, const pair<int, int>& action);
 
-// Returns possible moves
-set<pair<int, int>> actions(const char board[3][3]);
+#endif // HEADER_HPP
