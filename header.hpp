@@ -15,6 +15,6 @@ char* initial_state();
 // prints board
 void print_board(const char board[3][3]);
 
-// return whose turn
+// returns whose turn
 char player(const char board[3][3]);
 bool gameover(char board[]);
