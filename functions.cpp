@@ -4,7 +4,7 @@
 using namespace std;
 
 
-void print_board(const char board[][]) 
+void print_board(const ) 
 {
   /*
   Prints board
