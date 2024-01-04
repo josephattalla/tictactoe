@@ -35,7 +35,7 @@ char players(const board[3][3])
   */
 
   // if board == BOARD, return X
-    // count how many X and O on board to determine whose turn
+  // count how many X and O on board to determine whose turn
   bool equal;
   for (int i = 0; i < 3; i++) 
   {
