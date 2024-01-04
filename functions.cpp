@@ -67,7 +67,7 @@ char players(const board[3][3])
     return X;
   }
 
-  // if more X's, return 
+  // if more X's, return O; else return O
   if (X_count > O_count)
   {
     return O;
