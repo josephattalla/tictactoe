@@ -4,7 +4,7 @@
 using namespace std;
 
 
-void print_board(const char board[][]) 
+void print_board(const char board[3][3]) 
 {
   /*
   Prints board
@@ -14,13 +14,14 @@ void print_board(const char board[][])
   for (int i = 0; i < 3; i++)
   {
     cout << "|" << setw(5) << "|" << setw(5) << "|" << endl;
+    cout << "|";
     // loop through columns
     for (int j = 0; j < 3; j++)
     {
-      cout << "|" << setw(2) << board[i][j];
+      cout << setw(2) << board[i][j] << setw(3) << "|";
     }
+    cout << endl;
   }
-
 }
 
 
