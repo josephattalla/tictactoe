@@ -58,11 +58,12 @@ char players(const board[3][3])
           }
       }
   }
+  
   if (equal)
   {
     return X;
   }
-  
+
 }
 
 bool gameover(char board[])
