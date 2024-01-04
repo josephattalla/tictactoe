@@ -8,11 +8,10 @@ void print_board(char BOARD[])
   /*
   Prints board
   */
-  
+
   // loop through rows
   for (int i = 0; i < 3; i++)
   {
-    
     // loop through
     for (int j = 0; j < 3; j++)
     {
