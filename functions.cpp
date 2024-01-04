@@ -19,6 +19,9 @@ void print_board(const char board[3][3])
       cout << "|" << setw(2) << board[i][j] << setw(3);
     }
     if (i < 2)
+    {
+      
+    }
     cout << "\n_______________\n";
   }
 }
