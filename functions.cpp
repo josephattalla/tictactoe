@@ -31,8 +31,10 @@ char players(const board[3][3])
 {
   /*
   Returns whose turn it is.
-  
+  If game just started, X goes first.
   */
+
+  
 }
 
 bool gameover(char board[])
