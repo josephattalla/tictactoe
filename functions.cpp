@@ -51,7 +51,6 @@ char players(const board[3][3])
           empty = false;
           break;
       }
-  
       if (board[i][j] == X)
       {
         X_count++;
